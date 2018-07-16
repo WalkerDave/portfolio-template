@@ -1,14 +1,14 @@
 body,
 html {
   height: 100%;
-  color: #242423;
+  color: #E5E5E5;
   line-height: 1.8;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Boogaloo", Arial, sans-serif;
 }
 
 h1 {
   font-size: 36px;
-  color: white;
+  color: BLACK;
   font-weight: 800;
 }
 
@@ -23,6 +23,7 @@ h3 {
 
 h4 {
   font-size: 20px
+css/IMG-6324.jpg
 }
 
 h5 {
@@ -39,17 +40,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Righteous", Arial, sans-serif;
 }
 
 .bar-color{
-  background-color: #BBBBBC;
+  background-color: #A0363F;
   color: white;
 }
 
 #myNavbar {
   font-size: 20px;
-  color: #242423;
+  color: #CC5745;
 }
 
 #myNavbar a {
@@ -58,32 +59,42 @@ p {
 
 #myNavbar a:hover {
   text-decoration: none;
-  background-color: #BBBBBC;
-  color: white;
+  background-color: #1C2627;
+  color: #AO363F;
 }
-
+#about{
+    font-family:"Righteous"
+}
 .nav-change {
   background-color: white;
 }
-
+#about {
+    background-color: #242C2D;
+}
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('../img/notebook.jpg');
+  background-image: url('../img/tunnel.jpg');
   min-height: 100%;
 }
-
+#contact{
+    background-color: #242C2D;
+}
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url('../img/code.jpg');
+  background-image: url('../img/colors');
   min-height: 400px;
 }
-
+w3-hover-opacity{
+    opacity: 0.3;
+}
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url('../img/arcade.jpg');
+  background-image: url('../img/orange');
   min-height: 400px;
 }
-
+footer{
+    background-color: #CC5745;
+}
 /* Create a Parallax Effect for the background images */
 .bgimg-1,
 .bgimg-2,
@@ -93,7 +104,9 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+#portfolio{
+    background-color:#2C514F;
+}
 /*PROJECTS*/
 #project1:hover {
 
@@ -121,8 +134,14 @@ p {
 .projectContainer:hover .overlay {
   height: 100%;
 }
+.overlay{
+    background-color: #1C2627;
+    
+}
 
-
+.overlay h5{
+   font-family: "Marck Script"; 
+}
 /*W3 TEXT CLASSES*/
 /*SIZING*/
 .w3-tiny {
